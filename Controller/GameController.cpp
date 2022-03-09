@@ -144,6 +144,7 @@ void GameController::DrawHeader() {
 void GameController::DrawInterface() {
     ConsoleHelpers::ClearConsole();
     DrawHeader();
+    printf("This is %s's turn \r\n",alivePlayers[_iterator]->PlayerName.c_str());
     DrawAlivePlayersList();
     DrawRevolver("");
     printf("Available commands:\r\n1)Shoot\r\n2)Spin revolver's drum\r\n");
@@ -151,7 +152,7 @@ void GameController::DrawInterface() {
 
 //Draw every alive player
 void GameController::DrawAlivePlayersList() {
-    printf("This is %s's turn \r\nList of alive players:\r\n",alivePlayers[_iterator]->PlayerName.c_str());
+    printf("List of alive players:\r\n");
     for (int i = 0; i < alivePlayers.size(); i++) {
         printf("%i) %s \r\n",i+1, alivePlayers[i]->PlayerName.c_str());
     }
