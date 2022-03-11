@@ -7,13 +7,12 @@
 class Player {
 public:
     const std::string PlayerName;
-    int TotalScore;
-    int lastPlace;
+
 private:
 
 public:
     Player(std::string name);
-    void ReturnDefaults();
+
 };
 
 
