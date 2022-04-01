@@ -1,4 +1,4 @@
-# Russian Roulette Game v1.01
+# Russian Roulette Game v1.02
 Enjoy this famous type of game without any life danger!  
 You can play this game with your friends  
 Will work on Windows and may work on Linux  
