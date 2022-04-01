@@ -7,7 +7,7 @@
 class Player {
 public:
     const std::string PlayerName;
-
+    int lastPlace;
 private:
 
 public:

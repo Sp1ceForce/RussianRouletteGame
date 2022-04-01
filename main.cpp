@@ -27,7 +27,7 @@ int main() {
         cin >> name;
         playerList.push_back(new Player(name));
     }
-    printf("How many bullets can revolver's hold: ");
+    printf("How many bullets can revolver hold: ");
     cin >> drumCapacity;
     printf("How many bullets should be in the drum: ");
     cin >> totalBullets;
